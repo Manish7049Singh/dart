@@ -16,5 +16,5 @@ void main(){
     bill=(unit-300)*5+100*4+100*2.5+100*1.5;
     
   }
-  print("the bill is $bill");
+  print("This is your electricity bill: $bill");
 }
