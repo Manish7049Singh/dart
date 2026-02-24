@@ -5,12 +5,18 @@
 //   p1.setCity="New Delhi";
 //   print(p1.getCity);
 // }
-import 'person.dart';
+// import 'person.dart';
 
-void main() {
-  Person p1 = Person("Mahesh", 20, "Delhi");
-  Person p2 = Person("Suresh", 30, "South Delhi");
+// void main() {
+//   Person p1 = Person("Mahesh", 20, "Delhi");
+//   Person p2 = Person("Suresh", 30, "South Delhi");
 
-  p1.city = "New Delhi";
-  print(p1.city);
+//   p1.city = "New Delhi";
+//   print(p1.city);
+// }
+import 'student.dart';
+void main(){
+  student s1=student("Mahesh", 20, 85, "Delhi");
+  // s1.name="Manish";
+  print(s1.name);
 }
